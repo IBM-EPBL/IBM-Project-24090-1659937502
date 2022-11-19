@@ -1,0 +1,20 @@
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
+   name: pet
+ spec:
+   replicas: 1
+   selector:
+     matchLabels:
+       app: pet
+   template:
+     metadata:
+       labels:
+         app: pet
+     spec:
+       containers:
+       - name: app
+         image: jp.icr.io/pet1/pet
+         imagePullPolicy: Always
+         ports:
+         - containerPort: 5000
