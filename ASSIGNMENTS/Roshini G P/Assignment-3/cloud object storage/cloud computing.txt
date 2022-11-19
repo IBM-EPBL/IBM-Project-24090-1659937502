@@ -1,0 +1,15 @@
+unit 3
+1.layer cloud architecture development
+2.nist
+3.various cloud deployment
+4.service modal
+5.cloud storage
+unit 4(13 marks)
+6.explain inter cloud resource management
+*resource provisioning method
+*dynamic resource deployment
+*provision of storage resource
+7.cloud security challenges
+8.secure software developement lyf cycle
+9.IAM
+
